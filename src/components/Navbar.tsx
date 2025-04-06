@@ -134,7 +134,7 @@ const Navbar = () => {
                     to={item.link}
                     end={item.exact}
                     className={({ isActive }) =>
-                      `block px-4 py-2 md:py-8 text-[17px] font-medium hover:bg-[#a7c227] transition-colors ${
+                      `block px-4 py-2 md:py-8 text-[17px] font-medium hover:text-[#9b0048] hover:underline transition-colors ${
                         isActive ? "text-[#9b0048] underline" : "text-white"
                       }`
                     }

@@ -8,7 +8,9 @@ export default function Main() {
     <div className="font-sans">
       <DynamicHelmet />
       <Navbar />
-      <Outlet />
+      <div className="min-h-screen">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
