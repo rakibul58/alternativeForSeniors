@@ -51,7 +51,7 @@ const Footer = () => {
   return (
     <footer className="w-full">
       {/* Contact Section with Map - Magenta Background */}
-      <div className="bg-secondary text-white py-12">
+      <div className="bg-[#b11e63] text-white py-12">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
           {/* Map and Service Areas */}
           <div className="w-full md:w-1/2 mb-8 md:mb-0 flex justify-center">
@@ -91,9 +91,9 @@ const Footer = () => {
             <div className="">
               <div className="flex flex-col space-y-4 text-left">
                 {/* Address with icon */}
-                <div className="flex items-center">
-                  <div className="p-2 rounded-md mr-4 size-16">
-                    <img src={icon_footer1} alt="" />
+                <div className="flex items-center border-l border-[#ff4da0]">
+                  <div className="rounded-md ml-4 mr-8">
+                    <img className="w-12 object-cover" src={icon_footer1} alt="" />
                   </div>
                   <div>
                     <p>2386 Clower St., Building D-202</p>
@@ -102,9 +102,9 @@ const Footer = () => {
                 </div>
 
                 {/* Phone with icon */}
-                <div className="flex items-start">
-                  <div className="p-2 rounded-md mr-4 size-16">
-                    <img src={icon_footer2} alt="" />
+                <div className="flex items-center border-l border-[#ff4da0]">
+                  <div className="rounded-md ml-4 mr-8">
+                    <img className="w-12 object-cover" src={icon_footer2} alt="" />
                   </div>
                   <div>
                     <p>Phone Number: 770-736-7977</p>
@@ -113,9 +113,9 @@ const Footer = () => {
                 </div>
 
                 {/* Email with icon */}
-                <div className="flex items-start">
-                  <div className="p-2 rounded-md mr-4 size-16">
-                    <img src={icon_footer3} alt="" />
+                <div className="flex items-center border-l border-[#ff4da0]">
+                  <div className="rounded-md ml-4 mr-8">
+                    <img className="w-12 object-cover" src={icon_footer3} alt="" />
                   </div>
                   <div>
                     <p>Email Address:</p>
