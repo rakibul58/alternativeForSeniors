@@ -1,9 +1,11 @@
 import img1 from "../assets/1.jpg";
-import careGiver from "../assets/caregiver.jpg";
+import careGiver from "../assets/care_giver.jpg";
+import DynamicHelmet from "../components/DynamicHelmet";
 
 const AboutUsPage = () => {
   return (
     <div>
+      <DynamicHelmet title="About Us" />
       <div 
         style={{
           background: `url(${img1}) center center/cover no-repeat`,
@@ -25,7 +27,7 @@ const AboutUsPage = () => {
       </div>
 
       {/* Content Section */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="max-w-6xl w-full mx-auto px-4 py-8">
         {/* Mission Section */}
         <div className="flex flex-col md:flex-row gap-8 items-start">
           <div className="md:w-2/3">
