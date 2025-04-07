@@ -42,7 +42,7 @@ const HomeCareComponent = () => {
           
           {/* Right side - Text content */}
           <div className="w-full lg:w-1/2 lg:pl-8">
-            <h1 className="text-pink-600 text-3xl md:text-4xl font-bold mb-4">There's No Place Like Home</h1>
+            <h1 className="text-pink-600 text-3xl md:text-4xl font-bold mb-4 font-['Playfair_Display']">There's No Place Like Home</h1>
             
             <p className="text-gray-800 text-base md:text-lg leading-relaxed">
               Choosing the right agency to provide care in your home is a big decision. 
