@@ -41,7 +41,7 @@ const ClientSatisfactions = () => {
               We would love to hear from you. Your feedback about our services
               is highly appreciated.
             </p>
-            <button className="bg-[#c91d6e] hover:bg-[#a9c732]  text-white font-bold py-2 px-6 2xl:py-3 2xl:px-10 rounded-full mb-4 2xl:mb-6">
+            <button className="bg-[#c91d6e] hover:bg-[#a9c732]  text-white font-semibold py-2 px-6 2xl:py-3 2xl:px-10 rounded-full mb-4 2xl:mb-6">
               CLICK HERE
             </button>
           </div>
@@ -52,7 +52,7 @@ const ClientSatisfactions = () => {
             <p className="text-gray-700 font-normal mb-4 2xl:mb-6 max-w-[340px]">
               Learn about the types of insurance that we accept.
             </p>
-            <button className="bg-[#c91d6e] hover:bg-[#a9c732] text-white font-bold py-2 px-6 2xl:py-3 2xl:px-10 rounded-full">
+            <button className="bg-[#c91d6e] hover:bg-[#a9c732] text-white font-semibold py-2 px-6 2xl:py-3 2xl:px-10 rounded-full">
               CLICK HERE
             </button>
           </div>
