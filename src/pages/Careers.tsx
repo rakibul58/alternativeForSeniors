@@ -16,7 +16,7 @@ export default function Careers() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
 
         <div className="relative z-10 text-center flex flex-col lg:flex-row items-center justify-center px-4">
-          <h1 className="text-5xl font-bold text-[#fffe80] font-['Playfair_Display']">
+          <h1 className="text-4xl uppercase font-bold text-[#fffe80] font-['Playfair_Display']">
             Careers
           </h1>
         </div>
