@@ -17,7 +17,7 @@ const AboutUsPage = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         
         <div className="relative z-10 text-center flex flex-col lg:flex-row items-center justify-between gap-16 px-4">
-          <h1 className="text-3xl font-bold text-[#fffe80] font-['Playfair_Display']">ABOUT US</h1>
+          <h1 className="text-4xl font-bold text-[#fffe80] font-['Playfair_Display']">ABOUT US</h1>
           
           {/* Message box with solid background to ensure text visibility */}
           <div className="bg-[#00000034] bg-opacity-80 p-4 rounded">

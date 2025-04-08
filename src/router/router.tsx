@@ -3,6 +3,9 @@ import Home from "../pages/Home";
 import Main from "../layout/Main";
 import About from "../pages/About";
 import Services from "../pages/Services";
+import Careers from "../pages/Careers";
+import Resources from "../pages/Resources";
+import Contact from "../pages/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -19,8 +22,20 @@ export const router = createBrowserRouter([
       },
       {
         path: "home-care-our-services",
-        element: <Services />
-      }
+        element: <Services />,
+      },
+      {
+        path: "home-care-careers",
+        element: <Careers />,
+      },
+      {
+        path: "home-care-resources",
+        element: <Resources />,
+      },
+      {
+        path: "home-care-contact-us",
+        element: <Contact />,
+      },
     ],
   },
 ]);
